@@ -1,9 +1,3 @@
-
-// const newArray = array.filter((value,index,array)=>{
-//     console.log(`value : ${value} & Index ${index} & indexOf == ${array.indexOf(value)} and the Array is == ${array}`)
-// })
-
-
 // Filter Method takes a callback function as an argument and return an Array
 // Filter method returns all matching values from an array but Find method returns only first matching value from array
 
