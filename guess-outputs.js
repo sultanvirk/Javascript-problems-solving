@@ -18,3 +18,14 @@ console.log(!!!false) // The output will be true because first NOT operator inve
 
 // Q. What will be the output of :
 console.log(typeof typeof 1) // output is string because 1 is a number, so typeof 1 returns the string "number" and then typeof "number" will return string
+
+// Q. What will be the output of :
+let c = {
+    a: () => console.log("Accessed property a"),
+    b: () => console.log("Accessed property b")
+  };
+  
+  c.a(); // This will log: "Accessed property a"
+  c.b(); // This will log: "Accessed property b"
+
+  console.log(c.a === c.b); // This will log: false (because functions are not equal bcz all functions has thier unique instance thats why they are not equal)
