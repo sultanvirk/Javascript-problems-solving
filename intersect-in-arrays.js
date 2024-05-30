@@ -5,5 +5,5 @@ let intersectedArray = array1.filter((value) => {
     return array2.includes(value)
 
 })
-
-console.log([...new Set(intersectedArray)])
+console.log(intersectedArray)
+console.log([...new Set(intersectedArray)]) // Remove repeatetins

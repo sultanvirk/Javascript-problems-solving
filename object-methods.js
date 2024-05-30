@@ -41,20 +41,20 @@ var person = {
         'country': 'Pakistan'
     },
     // Declearing function in key
-    salary : function(){
-        return this.name+ " " +2000
+    salary: function () {
+        return this.name + " " + 2000
     }
 }
 
 //  to access specific value from array we use indexing
 console.log(person.hobbies[2])
-console.log(person.hobbies.filter((val) => val))
+console.log("Array Print = " + person.hobbies.filter((val) => val))
 
 // Accessing object values
 console.log(person.living.country)
 const internalObjectValues = person.living
 // Access all properties of internal object
-for(let key in internalObjectValues){
+for (let key in internalObjectValues) {
     console.log(`key ${key} = ${internalObjectValues[key]}`)
 }
 
@@ -62,7 +62,7 @@ for(let key in internalObjectValues){
 console.log(`salary : ${person.salary()}`)
 
 // Access all properties of person object
-for(let key in person){
+for (let key in person) {
     console.log(`Parent Object : ${key} = ${person[key]}`)
 }
 

@@ -10,7 +10,7 @@ console.log(typeof (f)); // Out put is object because f is object due to new key
 
 //  ***********************************
 
-// Q. What will bethe output of : 
+// Q. What will be the output of : 
 console.log(+"") // plus operator can convert the string values to number so the answer is 0 because the value of empty string is 0.
 
 // Q. What will be the output of :

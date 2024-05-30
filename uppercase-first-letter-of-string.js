@@ -9,11 +9,12 @@ console.log(capitalize(string))
 const string2 = "hello world"
 
 const capitalizeString = (str) =>{
-    var splitted= str.split(" ")
-    var final = splitted.map((val)=>{
+    var splittedIntoArray= str.split(" ")
+    // console.log(splittedIntoArray)
+    var final = splittedIntoArray.map((val)=>{
         return val.charAt(0).toUpperCase() + val.slice(1);
     })
-    return final
+    return final.join(" ")
 }
 
 console.log(capitalizeString(string2))

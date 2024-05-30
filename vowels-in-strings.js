@@ -18,8 +18,10 @@ const checkVowels = (str) => {
 
 console.log(`Count of vowel numbers : ${checkVowels(string)}`)
 
-const vowelNumbersInString = arr.filter((value,index,array)=>{
+
+
+const vowelsInStringWithoutDuplicy = arr.filter((value,index,array)=>{
     return array.indexOf(value) == index
 })
 
-console.log(`Vowel Numbers In String  = ${vowelNumbersInString}`)
+console.log(`Vowels In String  = ${vowelsInStringWithoutDuplicy}`)
